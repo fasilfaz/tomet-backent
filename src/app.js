@@ -9,7 +9,7 @@ import orderRoute from "./routes/order.routes.js";
 const app = new express();
 
 app.use(cors({
-    origin: ["http://localhost:5173", "https://urban-nest-furniture.vercel.app"],
+    origin: ["http://localhost:5173", "https://tomet-frontent.vercel.app/"],
     credentials: true,
     methods: ["GET", "HEAD", "OPTIONS", "POST", "DELETE", "PUT", "PATCH"],
     allowedHeaders: ['Content-Type', 'Authorization'],
