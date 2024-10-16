@@ -82,7 +82,7 @@ export const sendResetEmail = async ({ userEmail, subject, token, userId }) => {
     <p>This link will expire in 5 minutes.</p>
     <p>If you have any questions, please don't hesitate to contact us at <a href="mailto:support@example.com">support@example.com</a>.</p>
     <p>Best regards,<br>
-    The Example Team</p>
+    The Tomet Clothing Team</p>
   </div>
 </body>
 </html>`

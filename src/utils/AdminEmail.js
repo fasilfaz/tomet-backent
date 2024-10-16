@@ -65,7 +65,7 @@ export const sendAdminEmail = async ({ userEmail, subject, userName}) => {
   <p><a href="${process.env.FRONTEND_HOST}/login">${process.env.FRONTEND_HOST}/login</a></p>
   <p>We are excited to have you onboard and wish you success in your selling journey on our platform.</p>
   <p>Best regards,</p>
-  <p>The UrbanNest Team</p>
+  <p>The Tomet Clothing Team</p>
 </body>
 </html>
 `, // html body

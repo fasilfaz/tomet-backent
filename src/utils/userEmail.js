@@ -73,11 +73,11 @@ export const sendUserEmail = async ({ userEmail, subject, userId, userName }) =>
   <p>or copy the link here <a href='${process.env.FRONTEND_HOST}/admin/user/edit/${userId}'>${process.env.FRONTEND_HOST}/admin/user/edit/${userId}</a></p>
   <p>Thank you.</p>
   <p>Best regards,</p>
-  <p>UrbanNest Team</p>
+  <p>The Tomet Clothing Team</p>
 
   <div class="footer">
     <p>Please do not reply to this email.</p>
-    <p>UrbanNest Platform</p>
+    <p>Tomet Clothing Platform</p>
   </div>
 </body>
 </html>
